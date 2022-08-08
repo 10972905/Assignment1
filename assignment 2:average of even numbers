@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+   int n = 10000;
+   float average = (n+2)/2;
+   printf("The average of even numbers till %d is %f",n, average);
+   return 0;
+}
